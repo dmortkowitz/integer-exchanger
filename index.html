@@ -9,20 +9,27 @@
   </head>
   <body>
     <div class="container">
+      <br>
       <div class="jumbotron">
-        <h1>WELCOME TO SYSTEM DIAGNOSTICS.</h1>
-        <h2>Please, enter an integer of your choice.</h2>
-        <h3>For your protection, the systems have automatically limit sample sizes to 100,000,000,000.</h3>
-        <h4>Thank you.</h4>
+        <p><h1>WELCOME TO SYSTEM DIAGNOSTICS.</h1></p>
+        <p><h4>Please, enter an integer of your choice.</h4></p>
+        <p><h4>For your protection, the systems have automatically limit sample sizes to 100,000,000.</h4></p>
+        <p><h2>THANK YOU FOR PARTICIPATING.</h2></p>
       </div>
       <form id="userNumber">
         <div class="form-group">
+          <p><label for="userInput">Please input your integer.</label></p>
           <input id="userInput" type="number">
         </div>
-        <button type="submit" class="btn btn-danger" id="testButton"><h3>Test system processes. Please enter a number.</h3></button>
+        <button type="submit" class="btn btn-danger" id="testButton"><h3>RUN TEST</h3></button>
       </form>
     </div>
-    <div id="output">
+    <div class="container" id="hideThat">
+    <div class="jumbotron">
+
+      <p><h3>Your results are as follows:</h3></p>
+    <span id="output"><ul id="resultList"></ul></span><br>
     </div>
+  </div>
   </body>
 </html>

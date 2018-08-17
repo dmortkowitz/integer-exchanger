@@ -3,9 +3,16 @@
   background-color: black;
   color: #00ff00;
   border-style: inset;
+  border-width: 8px;
 }
 body{
-  background-color: lightblue;
+  background-color: #d9d9d9;
   text-align: center;
   color: black;
+}
+#hideThat{
+  display: none;
+}
+ul {
+  list-style-type: none;
 }
